@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Cadastro de Livro</title>
 </head>
 <body>
     <header>
         <div class="container_header">
             <nav class="navegacao">
-                <a href="#">Cadastro</a>
-                <a href="#">Listagem</a>
+                <a class="links" id="link1" href="#">Cadastro</a>
+                <a class="links" id="link2" href="#">Listagem</a>
             </nav>
             <div class="titulo">
-                <h1>CSS e JS PRO</h1>
+                <h1 class="titulo_principal">CSS e JS PRO</h1>
             </div>
         </div>
     </header>
     <div class="container">
         <main class="inputs">
-            <input type="text" name="titulo" placeholder="Título">
-            <input type="text" name="descricao" placeholder="Descrição">
+            <input class="estrutura estrutura1" type="text" name="titulo" placeholder="Título">
+            <input class="estrutura estrutura1" type="text" name="descricao" placeholder="Descrição">
         </main>
         <main class="botoes">
-            <button id="btn" type="submit">Cadastrar</button>
-            <p id="mensagem"></p>
+            <button class="estrutura estrutura2" id="btn" type="submit">Cadastrar</button>
+            <p class="estrutura estrutura2" id="mensagem" style="display: block;">Enviado com sucesso!</p>
+            <p class="estrutura estrutura3" id="invalido" style="display: none;">Formulário inválido</p>
         </main>
     </div>
 </body>
