@@ -1,9 +1,11 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
+
+
 .container_header {
     background-color: #dfe6ed;
-    margin: 0;
     display: flex;
     padding: 10px 0;
 }
@@ -12,7 +14,8 @@
    display: inline;
    min-width: 250px;
    text-align: center;
-   padding: 10px 50px;
+   padding: 10px 0;
+   margin-left: 5%;
 }
 
 .titulo {
@@ -36,10 +39,12 @@
 #link2 {
     margin-left: 20px;    
 }
+
 .container {
     background-color: #c3cfd9;
     padding: 10px 0;
-    height: 100vh;    
+    height: 100%;
+    min-height: 100vh;    
 }
 
 #btn {
@@ -53,7 +58,7 @@
     display: block;
     width: 80%;
     margin: 20px auto;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     font-size: 18px;
     padding: 5px 0;
@@ -66,13 +71,42 @@
 .estrutura2 {
     color: white;
     text-align: center;
-    padding-top: 10px;
+    height: 35px;
     background-color: #207868;
 }
 
 .estrutura3 {
     color: white;
     text-align: center;
-    padding-top: 10px;
+    height: 35px;
     background-color: #ac6363;
 }
+
+.lista_livros {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    min-height: 50vh;
+    font-size: 18px;
+    padding: 10px 0;
+    background-color: white;    
+}
+
+.lista {
+    padding-left: 50px;
+}
+
+.card {
+    border: solid black 2px;
+    padding: 10px 20px;
+    width: 20%;
+    height: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 0 0 20px;
+}
+
+table {
+    margin-left: 100px;
+}
+

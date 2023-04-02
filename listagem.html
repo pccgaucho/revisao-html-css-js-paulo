@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script type="text/javascript" src="./script.js"></script>
-    <title>Cadastro de Livro</title>
+    <title>Listagem dos Livros</title>
 </head>
 <body>
     <header>
@@ -21,15 +21,12 @@
         </div>
     </header>
     <div class="container">
-        <main class="inputs">
-            <input class="estrutura estrutura1" type="text" name="titulo" id="titulo" placeholder="Título">
-            <input class="estrutura estrutura1" type="text" name="descricao" id="descricao" placeholder="Descrição">
-        </main>
         <main class="botoes">
-            <button class="estrutura estrutura2" id="btn" type="submit" onclick="executar()">Cadastrar</button>
-            <p class="estrutura estrutura2" id="mensagem" style="display: none;">Enviado com sucesso!</p>
-            <p class="estrutura estrutura3" id="invalido" style="display: none;">Formulário inválido</p>
+            <button class="estrutura estrutura2" id="btn" type="submit" onclick="listar()">Mostrar Livros</button>
         </main>
+        <div class="lista_livros" id="lista_livros">
+                
+        </div>
     </div>
 </body>
 </html>
